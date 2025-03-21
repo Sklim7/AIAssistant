@@ -13,7 +13,6 @@ import sv_ttk  # Sun Valley ttk theme
 import time
 
 # AI Assistant Program
-#test1
 
 class MultiAIApp:
     def __init__(self, root):
