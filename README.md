@@ -25,7 +25,7 @@ Before building the executable, make sure you have Python and the necessary pack
     - PyInstaller (for building the executable)
 
 
-# Using Your Own OpenAI API Key
+## Using Your Own OpenAI API Key
 
 To interact with OpenAI's GPT and image generation models, you need to set up your own OpenAI API key. Below are the steps to configure the API key in the application:
 
@@ -53,16 +53,24 @@ Once you have your API key, you need to set it in the Python code for the applic
 
 Use **PyInstaller** to convert a Python script (`main.py`) into a standalone executable file by running 'python build_exe.py'
 
-### Sample Screenshots
+
+
+
+
+# Sample Screenshots
 
 ### Executable File Sample
 ![Executable File Sample](executable_file_sample.jpg)
 
+### Sample Chat Output
+![Sample Text Output](sample_text.jpg)
+
 ### Sample Chat History Output
 ![Sample Chat History Output](sample_chat_history_output.jpg)
+
+### Sample Image 
+![Sample Image](sample_image.jpg)
 
 ### Sample Image Output
 ![Sample Image Output](sample_image_output.jpg)
 
-### Sample Text Output
-![Sample Text Output](sample_text.jpg)
