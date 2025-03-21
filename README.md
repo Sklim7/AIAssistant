@@ -68,6 +68,9 @@ Use **PyInstaller** to convert a Python script (`main.py`) into a standalone exe
 ### Sample Chat History Output
 ![Sample Chat History Output](sample_chat_history_output.jpg)
 
+![Sample Chat History Output](sample_chat_history.jpg)
+
+
 ### Sample Image 
 ![Sample Image](sample_image.jpg)
 
