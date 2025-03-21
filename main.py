@@ -32,7 +32,7 @@ class MultiAIApp:
         self.style.configure('Status.TLabel', font=('Calibri', 12))
 
         # OpenAI client conversation history reset
-        api_key = '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'
+        api_key = ''
         self.client = OpenAI(api_key=api_key)
         self.conversation_history = []
 
