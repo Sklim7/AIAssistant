@@ -68,3 +68,5 @@ To get started, you first need to install PyInstaller using pip. Open your termi
 pip install pyinstaller
 
 then run the  'python build_exe.py'
+
+![Local Image](./executable file sample.jpg)
