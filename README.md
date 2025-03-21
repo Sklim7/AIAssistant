@@ -47,3 +47,24 @@ Once you have your API key, you need to set it in the Python code for the applic
 3. replace the api_key with your api key.
    ```python
    api_key = 'your-openai-api-key'
+
+
+ ## 3. How to Create an Executable with PyInstaller
+
+This guide explains how to use **PyInstaller** to convert a Python script (`main.py`) into a standalone executable file.
+
+## Prerequisites
+
+Before using **PyInstaller**, make sure you have the following:
+
+- **Python**: Ensure you have Python installed on your system.
+- **PyInstaller**: PyInstaller is a Python package that bundles your Python script and its dependencies into an executable.
+
+### Install PyInstaller
+
+To get started, you first need to install PyInstaller using pip. Open your terminal and run the following command:
+
+```bash
+pip install pyinstaller
+
+then run the  'python build_exe.py'
