@@ -69,4 +69,16 @@ pip install pyinstaller
 
 then run the  'python build_exe.py'
 
-![Local Image](./executable file sample.jpg)
+## Sample Screenshots
+
+### Executable File Sample
+![Executable File Sample](executable_file_sample.jpg)
+
+### Sample Chat History Output
+![Sample Chat History Output](sample_chat_history_output.jpg)
+
+### Sample Image Output
+![Sample Image Output](sample_image_output.jpg)
+
+### Sample Text Output
+![Sample Text Output](sample_text.jpg)
