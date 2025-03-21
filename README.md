@@ -25,3 +25,25 @@ Before building the executable, make sure you have Python and the necessary pack
     - PyInstaller (for building the executable)
 
 
+# Using Your Own OpenAI API Key
+
+To interact with OpenAI's GPT and image generation models, you need to set up your own OpenAI API key. Below are the steps to configure the API key in the application:
+
+## 1. Obtain Your OpenAI API Key
+
+Follow these steps to get your API key from OpenAI:
+
+1. Visit [OpenAI's website](https://beta.openai.com/signup/) and sign up for an account (or log in if you already have one).
+2. After logging in, go to the [API section](https://beta.openai.com/account/api-keys).
+3. Copy your **API key**.
+
+## 2. Configure Your API Key in the Code
+
+Once you have your API key, you need to set it in the Python code for the application. Follow these steps:
+
+1. Open the Python file where the OpenAI client is initialized (e.g., `main.py`).
+2. Locate the following line in the `MultiAIApp` class:
+
+3. replace the api_key with your api key.
+   ```python
+   api_key = 'your-openai-api-key'
